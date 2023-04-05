@@ -7,6 +7,8 @@
     tools:context=".noncompose.NonComposeActivity">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"

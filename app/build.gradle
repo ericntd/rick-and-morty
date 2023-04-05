@@ -88,4 +88,10 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_library_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_library_version"
+
+    // https://mvnrepository.com/artifact/io.reactivex.rxjava2/rxjava
+    implementation group: 'io.reactivex.rxjava2', name: 'rxjava', version: '2.2.21'
+    // AndroidSchedulers.mainThread()
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.9.0'
 }
